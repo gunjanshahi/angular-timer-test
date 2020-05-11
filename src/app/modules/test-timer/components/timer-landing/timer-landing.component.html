@@ -1,0 +1,14 @@
+<section class="timer-landing">
+  <div>
+    <app-count-down [timerValue]="timerValue" [isPaused]="isPaused" [isReset]="isReset"></app-count-down>
+  </div>
+  <div>
+    <app-count-down-feature (emitTimerValue)="setEmittedTimerValue($event)" (resetTimerValue)="resetTimerValue($event)"></app-count-down-feature>
+  </div>
+  <div>
+    <app-count-down-logger ></app-count-down-logger>
+  </div>
+  <div>
+    <app-start-pause-count [isPaused]="isPaused" [isReset]="isReset"></app-start-pause-count>
+  </div>
+</section>

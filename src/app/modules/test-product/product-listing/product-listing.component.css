@@ -1,0 +1,37 @@
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+.product-page {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-item {
+  flex-basis: 24%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  background: #e2e2e2;
+}
+.product-item--list {
+  flex-basis: 100%;
+}
+
+.product-page__filter {
+  flex-basis: 100%;
+  margin-bottom: 20px
+}

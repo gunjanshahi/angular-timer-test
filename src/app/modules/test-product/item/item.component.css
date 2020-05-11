@@ -1,0 +1,10 @@
+.item {
+  min-height: 40px;
+  padding: 10px;
+}
+
+.prod-img img {
+  width: 100%;
+  height: 100%;
+  max-height: 250px;
+}

@@ -1,0 +1,6 @@
+<section>
+  <label for="time-input">Enter Time Limit</label>
+  <input type="text" #timer>
+  <button (click)="startPauseTimer(timer.value)">{{buttonText}}</button>
+  <button (click)="resetTimer()">Reset</button>
+</section>
